@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: merienda;
+}
+
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(./images/AboutUs_flip-photos.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    overflow: hidden;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	margin-top:200px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+	background-color:#F1B249;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #F1B249;
+	cursor: pointer;
+}
+
+
+footer{
+    
+    background:rgb(0, 0,0,.8);
+     height: auto;
+     width: 100vw;
+     color: white;
+ }
+ .footer-text{
+     margin-top:5px;
+     font-weight: bold;
+     font-size:20px
+ }
+ .footer-text a{
+     text-decoration: none;
+    color: white;
+ }
+ .footer-text a:hover{
+     text-decoration:none;
+     color: white;
+ }
+ .footer-content{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ }
+ .footer-content p{
+ max-width: 500px;
+ margin: 10px auto;
+ line-height:28px;
+ font-size: 14px;
+ }
+ .socials-icon{
+     list-style: none;
+     display:flex;
+     align-items: center;
+     justify-content:center;
+ }
+ .socials-icon a{
+     text-decoration: none;
+     color: rgb(220, 20, 60);
+    
+ }
+ .socials-icon a i{
+     font-size: 2rem;
+     margin: 0 10px;
+ 
+ }
+ .socials-icon a:hover i{
+ color:  #F1B249;
+ }
+ .footer-bottom{
+     background:rgb(0, 0,0,.5);
+     width: 100vw;
+     padding: 20px 0;
+     text-align: center;
+ }
+ 
+ .footer-bottom p{
+     font-size:14px;
+     word-spacing: 2px;
+     text-transform:uppercase;
+ }
